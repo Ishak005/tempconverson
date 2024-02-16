@@ -8,7 +8,20 @@
 </head>
 <body>
     
+    <form>
+        <h1>Temperature Conversion:</h1>
+        <input type="number" id="textBox" value="0"><br>
 
+        <input type="radio" id="toFahrenhet" name="unit">
+        <label for="toFahrenhet">Fahrenhet ➡ Celcius</label><br>
+
+        <input type="radio" id="toCelcius" name="unit">
+        <label for="toCelcius">Celcius ➡ Fahrenhet</label><br>
+        <button type="button" onclick="convert()">Submit</button>
+
+        <p id="result"></p>
+
+    </form>
 
 
     <script src="tempconversion.js"></script>
